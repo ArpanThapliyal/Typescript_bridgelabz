@@ -64,3 +64,29 @@
 // function make (obj :admin){
 //     obj.abc('mop');
 // }
+// classes and objects
+class user {
+    constructor(name, age, gender) {
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+    }
+    get getname() {
+        return this.name;
+    }
+    set setname(val) {
+        this.name = val;
+    }
+}
+class semiuser extends user {
+    constructor(name, age, gender) {
+        super(name, age, gender);
+    }
+    get getsemiuser() {
+        return this.age;
+    }
+}
+let u1 = new user('rock', 30, "m");
+let su1 = new semiuser('popoye', 40);
+console.log(u1.age);
+console.log(u1.age);
