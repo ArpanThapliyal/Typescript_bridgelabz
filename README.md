@@ -7,7 +7,7 @@
 
     - Node.js
 
-    - Core TypeScript Concepts
+- Core TypeScript Concepts
 
     - Tuples
 
